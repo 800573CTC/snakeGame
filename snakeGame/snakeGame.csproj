@@ -1,0 +1,55 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>disable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Body.png" />
+    <None Remove="Assets\DeadBody.png" />
+    <None Remove="Assets\DeadHead.png" />
+    <None Remove="Assets\Death.png" />
+    <None Remove="Assets\DroidSansMono.ttf" />
+    <None Remove="Assets\Dupe.png" />
+    <None Remove="Assets\Empty.png" />
+    <None Remove="Assets\Food.png" />
+    <None Remove="Assets\Gold.png" />
+    <None Remove="Assets\Head.png" />
+    <None Remove="Assets\icon.ico" />
+    <None Remove="Assets\Melon.png" />
+	  <None Remove="Assets\OldMelon.png" />
+	  <None Remove="Assets\Potion_Template.png" />
+	  <None Remove="Assets\Slow.png" />
+	  <None Remove="Assets\Speed.png" />
+	  <None Remove="Assets\Starfruit.png" />
+	  <None Remove="Assets\Wall.png" />
+	  <None Remove="Assets\Orange.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Melon.png" />
+    <Resource Include="Assets\Starfruit.png" />
+    <Resource Include="Assets\Wall.png" />
+    <Resource Include="Assets\Body.png" />
+    <Resource Include="Assets\DeadBody.png" />
+    <Resource Include="Assets\DeadHead.png" />
+    <Resource Include="Assets\DroidSansMono.ttf" />
+    <Resource Include="Assets\Empty.png" />
+    <Resource Include="Assets\Food.png" />
+    <Resource Include="Assets\Head.png" />
+    <Resource Include="Assets\icon.ico" />
+    <Resource Include="Assets\Gold.png" />
+    <Resource Include="Assets\Dupe.png" />
+    <Resource Include="Assets\Death.png" />
+    <Resource Include="Assets\Speed.png" />
+    <Resource Include="Assets\Potion_Template.png" />
+    <Resource Include="Assets\Slow.png" />
+	  <Resource Include="Assets\OldMelon.png" />
+	  <Resource Include="Assets\Orange.png" />
+
+  </ItemGroup>
+
+</Project>
